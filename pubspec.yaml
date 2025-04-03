@@ -1,0 +1,41 @@
+name: myhealthservapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: 1.2.2
+  jwt_decode: 0.3.1
+  shared_preferences: ^2.0.15
+  provider: ^6.0.3
+  flutter_secure_storage: ^9.2.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/cmclogo.gif
+    - assets/avatar.png
+    - assets/near_miss.png
+    - assets/no_harm.png
+    - assets/welcome.png
+    - assets/opportunities.png
+    - assets/sentinel.png
+    - assets/adverse.png
+    - assets/opportunities_slide.png
+    - assets/nearmiss_slide.png
+    - assets/noharm_slide.png
+    - assets/adverse_slide.png
+    - assets/sentinel_slide.png
